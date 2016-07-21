@@ -1,0 +1,42 @@
+
+<svg width="1106px" height="1106px" viewBox="1480 2496 1106 1106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="5 0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <radialGradient cx="39.0916143%" cy="52.6148235%" fx="39.0916143%" fy="52.6148235%" r="55.3983943%" id="radialGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#DADADA" offset="49.6871014%"></stop>
+            <stop stop-color="#9E9E9E" offset="100%"></stop>
+        </radialGradient>
+        <polygon id="path-3" points="409.656238 0.863959599 819.206183 544.963133 0.106292806 544.963133"></polygon>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="18" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.552941176   0 0 0 0 0.282352941   0 0 0 0 0.670588235  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-5">
+            <feMorphology radius="2" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+            <feGaussianBlur stdDeviation="22.5" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="6" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="logo-circle" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(1495.500000, 2512.000000)">
+        <circle id="Oval-1" stroke="#000000" fill="#000000" filter="url(#filter-1)" cx="537.5" cy="537" r="537"></circle>
+        <g id="icon" transform="translate(128.000000, 196.000000)">
+            <g id="Triangle-9">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="url(#radialGradient-2)" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-3"></use>
+            </g>
+            <polygon id="Triangle-6" stroke="#000000" stroke-width="24.3" fill="url(#radialGradient-2)" points="409.675673 11.2807326 728.641424 535.875601 90.7099219 535.875601"></polygon>
+            <polygon id="Triangle-7" stroke="#000000" stroke-width="18" fill="url(#radialGradient-2)" points="248.694474 278.480923 407.87124 535.875601 89.5177073 535.875601"></polygon>
+            <polygon id="Triangle-7" stroke="#000000" stroke-width="18" fill="url(#radialGradient-2)" points="570.087617 278.480923 729.264383 535.875601 410.91085 535.875601"></polygon>
+        </g>
+    </g>
+</svg>
